@@ -1,0 +1,645 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+body {
+    background-color: #EDEEEF;
+}
+
+
+/* header section */
+header {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(#00000050, #00000050), url(./img/Rectangle\ 2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    padding-top: 20px;
+}
+
+.logo {}
+
+.logo img {}
+
+.nav {}
+
+.nav ul {}
+
+.nav ul li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.create-account {}
+
+.create-account p {
+    text-align: center;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 50px;
+}
+
+.create-account1 p {
+    display: none;
+    text-align: center;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 50px;
+}
+
+.menu-bar .fa-bars {
+    display: none;
+}
+
+
+
+/* banner section */
+.banner {
+    padding-top: 100px;
+}
+
+.banner h1 {
+    color: white;
+    font-size: 46px;
+    font-weight: bold;
+}
+
+.banner .bp {
+    margin-top: 40px;
+    color: white;
+    font-size: 13px;
+}
+
+
+
+.banner .solid {}
+
+.banner .submit p {
+    margin-top: 70px;
+    font-size: 13px;
+    color: white;
+    background: #34A5E4;
+    padding: 16px 30px;
+}
+
+.banner .search-area p {
+    margin-top: 70px;
+    color: #d0d0d0;
+    font-size: 13px;
+    background: white;
+    margin-right: 10px;
+    padding: 16px 30px
+}
+
+.banner .search-area span {
+    padding: 0 15px;
+
+}
+
+.banner .search {
+
+    display: flex;
+}
+
+/* provide section */
+.provide {
+    margin-top: 100px;
+}
+
+.title {}
+
+.title h1 {
+    margin-bottom: 20px;
+}
+
+.title p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.provide-card {
+    margin-bottom: 10px;
+    background-color: #f7f7f7;
+    padding: 40px 0;
+    padding-left: 40px;
+    transition: 0.5s;
+}
+
+.provide-card:hover {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 10px 28px;
+
+}
+
+.card-img {
+    margin-bottom: 37px;
+    width: 70px;
+    background-color: #FFFFFF;
+    padding: 13px 10px;
+}
+
+.provide img {}
+
+.provide h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.provide p {
+    font-size: 12px;
+    color: #777;
+}
+
+/* about section */
+.about {
+    margin-top: 100px;
+}
+
+.about-p {
+    margin-bottom: 30px;
+    color: #4141A5;
+}
+
+.about-title {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.about-title h1 {
+    margin-bottom: 10px;
+}
+
+.about-title p {}
+
+.about-card1 {
+    border-radius: 7px;
+    background: #fff;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.about-card1 span {
+    font-size: 35px;
+    background: #fafafa;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 47%;
+    right: 79%;
+    text-align: center;
+}
+
+.about-card1 img {
+    width: 100%;
+    height: 200px;
+}
+
+.about-card img {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 200px;
+}
+
+.about-card-text {
+    padding-top: 40px;
+    padding: 20px;
+}
+
+.about-card-text h4 {
+    padding-top: 30px;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.about-card-text p {
+    font-size: 12px;
+
+}
+
+.arrow {
+    margin-top: 26%;
+    display: flex;
+    padding-left: 34%;
+}
+
+.arrow .fa-solid {
+    color: #777;
+    margin: 5px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+/* place section */
+.place {
+    margin-top: 100px;
+}
+
+.place-card {
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background: #fff;
+    padding: 20px;
+}
+
+.place-card img {
+    width: 100%;
+}
+
+.place-card h5 {
+    padding-top: 20px;
+}
+
+.place-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.place-price p {
+    font-weight: bold;
+    color: #777;
+}
+
+.place-price h6 {
+    padding-top: 4px;
+    color: #EE6D52;
+}
+
+/* partner section */
+.partner {
+    margin-top: 100px;
+}
+
+.partner img {
+    margin-top: 30px;
+    width: 90%;
+}
+
+.group {
+    max-width: 250px;
+}
+
+.group1 {
+    max-width: 205px;
+}
+
+.group2 {
+    max-width: 206px;
+}
+
+.group3 {
+    max-width: 205px;
+}
+
+.group4 {
+    max-width: 165px;
+}
+
+.group5 {
+    max-width: 175px;
+    /* margin-left: 43px; */
+}
+
+.group6 {
+    max-width: 195px;
+}
+
+/* city section */
+.title-city {
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-city h5 {
+    color: #4141A5;
+    font-weight: 400;
+}
+
+.title-city h1 {
+    font-weight: 700;
+}
+
+.title-city .arrow {
+    margin-right: 10px;
+}
+
+.title-city p {
+    color: #777;
+    font-size: 13px;
+}
+
+.city {
+    margin-top: 100px;
+}
+
+.city-card {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.city-card img {}
+
+.city-head {
+    color: white;
+    position: absolute;
+    top: 15px;
+    left: 18px;
+}
+
+.city-head h5 {
+    background-color: #ffffff87;
+    padding: 9px 35px;
+    border-radius: 27px;
+}
+
+.city-text {
+    position: absolute;
+    color: white;
+    bottom: 5px;
+    left: 18px;
+
+}
+
+.city-text h5 {
+    font-weight: 700;
+}
+
+.city-text p {}
+
+/* testimonial section */
+.testimonial {
+    margin-bottom: 15%;
+    margin-top: 100px;
+}
+
+.testimonial-card {
+    border-radius: 10px;
+    position: relative;
+    background: white;
+    padding: 10px;
+    transition: 0.5s;
+    margin-bottom: 20px;
+}
+
+.testimonial-card:hover {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 10px 28px;
+}
+
+.testimonial-card img {
+    position: absolute;
+    bottom: 88%;
+    right: 41%;
+}
+
+.testimonial-card h5 {
+    padding-top: 25%;
+}
+
+.testimonial-card p {
+    padding: 10px 20px;
+}
+
+.rating {
+    padding: 0 20px;
+}
+
+.rating .fa-solid {
+    color: #FAB33F;
+}
+
+/* offer section */
+.offer {
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 50%;
+    padding: 20px 11%;
+    background-color: rgb(51, 164, 227);
+    right: 11.5%;
+    margin-bottom: 50px;
+
+}
+
+.offer h1 {
+    color: white;
+    font-size: 35px;
+    margin-top: 16px;
+    margin-left: 10%;
+    font-weight: 700;
+}
+
+.offer p {
+    color: white;
+    margin-left: 10%;
+    font-size: 13px;
+}
+
+.search {
+    display: flex;
+}
+
+.search input {
+    border: white;
+    padding: 12px 87px;
+    margin-top: 8%;
+}
+
+.search .ofsearch {
+    margin-top: 15%;
+}
+
+/* footer section */
+footer {
+
+    position: relative;
+    margin-top: 100px;
+    background: #000;
+}
+
+.footer {
+    padding-top: 15%;
+}
+
+.footer p {
+    color: #8e8e8e;
+}
+
+.footer1 {}
+
+.footer1 img {
+    margin-bottom: 20px;
+}
+
+.footer1 p {}
+
+.footer2 {
+    margin-top: 20px;
+}
+
+.footer2 p {
+    color: white;
+}
+
+.footer2 span {}
+
+.footer2 span .fa-facebook-f {
+    color: #1778F2;
+    background: white;
+    padding: 10px 14px;
+    border-radius: 50%;
+}
+
+.footer2 span .fa-twitter {
+    color: #55ACEE;
+    background: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.footer3 {
+    margin-top: 20px;
+}
+
+.footer3 span {}
+
+.footer3 span .fa-linkedin-in {
+    color: #0A7BBA;
+    background: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.footer3 span .fa-pinterest {
+    color: #CC2127;
+    background: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.footer3 p {
+    color: white;
+}
+
+
+.footer4 {}
+
+.footer4 h5 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.footer4 .partner {}
+
+/* responsive section */
+@media(max-width:800px) {
+    .title-city {
+        flex-direction: column;
+
+    }
+
+    .title-city .arrow {
+        display: none;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    .city-text {
+        position: absolute;
+        color: white;
+        bottom: 5px;
+        left: 86px;
+
+    }
+
+    .city-head {
+        left: 86px;
+    }
+
+    .city-text h5 {
+        margin-right: 78px;
+    }
+
+    .banner .search-area p {
+        font-size: 9px;
+    }
+
+    .banner .submit p {
+        font-size: 10px;
+
+    }
+
+    .testimonial-card {
+        margin-bottom: 50px;
+    }
+
+    .search input {
+        margin-left: 53px;
+    }
+
+    .offer {
+        right: 0;
+        bottom: 73%
+    }
+
+    .footer {
+        text-align: center;
+        padding-top: 40%;
+    }
+
+    .menu-bar .fa-bars {
+        display: block;
+        padding-left: 308px;
+        margin-left: 36%;
+        font-size: 27px;
+        color: white;
+        margin-top: -29px;
+    }
+
+    .nav ul li {
+        display: block;
+        margin-left: 410px;
+        text-align: right;
+        margin-top: 10px;
+    }
+
+    .nav ul li a {
+        text-align: right;
+    }
+
+    .nav ul {
+        height: 50vh;
+        position: absolute;
+        top: 30px;
+        right: -8px;
+        background: #afafaf;
+        width: 114%;
+        transition: 0.5s;
+        overflow: hidden;
+    }
+
+    .create-account1 p {
+        display: block;
+        padding: 10px;
+
+    }
+
+    .create-account p {
+        display: none;
+
+    }
+}
